@@ -1,4 +1,4 @@
-/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-undefined, no-magic-numbers */
+/* eslint-disable no-undefined, no-magic-numbers */
 import dig from "./index"
 
 test("object with keys present", () => {
