@@ -53,8 +53,7 @@
   "dependencies": {
     "@unction/flip": "4.1.0",
     "@unction/get": "2.5.0",
-    "@unction/reducevalues": "8.5.0",
-    "core-js": "3.0.1"
+    "@unction/reducevalues": "8.5.0"
   },
   "nyc": {
     "require": [
