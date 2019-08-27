@@ -1,5 +1,5 @@
 /* eslint-disable no-undefined, no-magic-numbers */
-import dig from "./index";
+import dig from "./";
 
 test("object with keys present", () => {
   expect(
