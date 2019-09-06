@@ -54,8 +54,8 @@
   },
   "dependencies": {
     "@unction/flip": "4.1.1",
-    "@unction/get": "2.6.0",
-    "@unction/reducevalues": "8.6.0"
+    "@unction/get": "2.7.0",
+    "@unction/reducevalues": "8.7.0"
   },
   "files": [
     "index.ts",
