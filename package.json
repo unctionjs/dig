@@ -1,6 +1,6 @@
 {
   "name": "@unction/dig",
-  "version": "1.10.0",
+  "version": "1.10.1",
   "description": "Takes a chain of keys and a tree, traversing down and reaching the last value",
   "keywords": [
     "unction",
