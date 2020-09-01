@@ -64,8 +64,8 @@
     "typescript": "^4.0.2"
   },
   "dependencies": {
-    "@unction/flip": "4.1.3",
-    "@unction/get": "2.10.0",
-    "@unction/reducevalues": "8.10.0"
+    "@unction/flip": "^4.1.4",
+    "@unction/get": "^2.11.0",
+    "@unction/reducevalues": "^8.11.0"
   }
 }
