@@ -18,18 +18,37 @@ jobs:
         restore-keys: |
           ${{ runner.OS }}-node-
           ${{ runner.OS }}-
+    - uses: actions/cache@v2
+      with:
+        path: "*.js"
+        key: ${{ runner.OS }}-node-${{ hashFiles('*.js') }}
+        restore-keys: |
+          ${{ runner.OS }}-node-
+          ${{ runner.OS }}-
   test:
     needs: build
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 14
     - run: npm run test
   lint:
     needs: build
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 14
     - run: npm run lint
   typecheck:
     needs: build
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 14
     - run: npm run typecheck
